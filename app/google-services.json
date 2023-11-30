@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1074828196348",
+    "project_id": "fir-oc2-ba556",
+    "storage_bucket": "fir-oc2-ba556.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074828196348:android:30f9a907f3a8bdcc5a5a79",
+        "android_client_info": {
+          "package_name": "com.openclassroom.firebaseoc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz5OfoZ2By0nCox9fJVJtbXPNgV7b5ft4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

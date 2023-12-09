@@ -104,6 +104,9 @@ public class MainActivity extends AppCompatActivity {
         this.products.remove(this.products.get(id)) ;
         refreach();
     }
+
+
+
     private void deleteProduct(String productId) {
         // Delete the product from Firestore
         DocumentReference productRef = productsCollection.document(productId);
@@ -119,6 +122,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+
+
     public void toUpdateMode(Product product){
         textName.setText(product.getName());
         textDesc.setText(product.getDescription());
@@ -133,6 +139,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+
+
+
     public void update(){
 
         DocumentReference washingtonRef = db.collection("products").document(idToChange);
@@ -166,6 +176,11 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+
+
+
+
     private void loadProducts() {
         Toast.makeText(MainActivity.this,"start the method lead tada",Toast.LENGTH_LONG).show();
 
